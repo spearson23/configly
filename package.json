@@ -1,0 +1,35 @@
+{
+  "name": "configly",
+  "version": "0.0.5",
+  "description": "Config Framework",
+  "main": "dist/index.js",
+  "repository": "https://github.com/spearson23/configly.git",
+  "author": "Steven Pearson <spearson23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "gulp"
+  },
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "testRegex": ".*.test.js$",
+    "roots": [
+      "src"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "jest": "^23.1.0",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.1"
+  }
+}
